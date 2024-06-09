@@ -6,6 +6,7 @@
     --background-color: #FFE4CC;
     --ice-color: #EFEFEF;
     --footer-color: #181818;
+    --contact-color: rgba(0, 0, 0, 0.25);
 }
 
 .container {
@@ -13,7 +14,6 @@
     padding-right: 10px;
     padding-left: 10px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 
 *,
@@ -156,12 +156,32 @@ padding: 15px 30px;
   padding-bottom: 100px;
 }
 
+.popular-box {
+  display: flex;
+  gap: 20px;
+}
+
+.popular-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+height: 500px;
+border-radius: 10px;
+background: #EFEFEF;
+}
+
+.popular-container {
+  margin-right: 117px;
+}
+
 .popular-title {
   color: var(--title-color);
 font-family: "Nunito";
 font-size: 36px;
 font-weight: 700;
 line-height: 1.36;
+margin-bottom: 10px;
 }
 
 .popular-text {
@@ -169,6 +189,7 @@ line-height: 1.36;
 font-size: 20px;
 font-weight: 400;
 line-height: 1.15;
+margin-bottom: 45px;
 }
 
 .popular-btn {
@@ -186,11 +207,11 @@ padding: 15px 30px;
   background: var(--background-color);
   padding-top: 60px;
   padding-bottom: 100px;
+  text-align: center;
 }
 
 .top-ice-title {
   color: var(--title-color);
-text-align: center;
 font-family: "Nunito";
 font-size: 48px;
 font-weight: 700;
@@ -199,16 +220,65 @@ line-height: 1.35;
 
 .top-ice-text {
   color: var(--accent-color);
-text-align: center;
+  width: 790px;
 font-size: 20px;
 font-weight: 400;
 line-height: 1.15;
+margin-right: auto;
+margin-left: auto;
+margin-top: 40px;
+margin-bottom: 68px;
+}
+
+.top-ice-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.top-ice-link {
+  flex-basis: calc((100% - 60px) / 4 );
+}
+
+.top-ice-img {
+  width: 100%;
 }
 
 /* Секція контакти */
 .contact {
   padding-top: 100px;
   padding-bottom: 100px;
+  text-align: center;
+}
+
+.contact-list {
+  display: flex;
+  gap: 20px;
+  }
+
+ .contact-list :hover, .contact-list :focus {
+  .contact-title {
+    color: var(--button-color);
+  }
+  .contact-item {
+    color: var(--button-color);
+  }
+ background: #FF463A;
+ }
+
+  .contact-link {
+    width: 526px;
+height: 348px;
+border-radius: 10px;
+background: var(--button-color);
+box-shadow: 0px 0px 17px 0px var(--contact-color);
+text-align: center;
+}
+
+.contact-img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
 }
 
 .contact-title {
@@ -218,16 +288,17 @@ font-family: "Nunito";
 font-size: 32px;
 font-weight: 700;
 line-height: 1.375;
+margin-top: 40px;
+margin-bottom: 25px;
 }
 
 .contact-item {
   color: var(--accent-color);
-text-align: center;
 font-size: 24px;
-font-style: normal;
 font-weight: 400;
 line-height: 1.16;
 }
+
 
 /* Футер */
 .footer {
@@ -235,12 +306,20 @@ line-height: 1.16;
   padding-bottom: 60px;
   background: var(--footer-color);
 }
+
+.footer-box {
+  display: flex;
+  align-items: center;
+}
+
 .footer-item {
     color: var(--text-color);
 font-family: "Oswald";
 font-size: 24px;
 font-weight: 400;
 line-height: 1.5;
+margin-left: 37px;
+margin-right: 1014px;
 }
 
 .footer-text {
@@ -249,6 +328,5 @@ font-family: "Inter";
 font-size: 20px;
 font-weight: 400;
 line-height: 1.2;
+width: 404px;
 }
-
-
