@@ -106,8 +106,10 @@ line-height: 1.15;
 
 .hero-list {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+}
+.hero-container {
+  margin-right: 397px;
 }
 
 .hero-text {
@@ -263,7 +265,7 @@ margin-bottom: 68px;
   .contact-item {
     color: var(--button-color);
   }
- background: #FF463A;
+   background-color: var(--title-color);
  }
 
   .contact-link {
