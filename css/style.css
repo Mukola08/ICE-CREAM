@@ -161,19 +161,19 @@ padding: 15px 30px;
   padding-bottom: 100px;
 }
 
-.popular-box {
+.popular-list {
   display: flex;
   gap: 20px;
 }
 
-.popular-list {
+.popular-link {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 800px;
+  justify-content: center;
+ width: 800px;
 height: 500px;
 border-radius: 10px;
-background: #EFEFEF;
+background: var(--ice-color);
 }
 
 .popular-container {
