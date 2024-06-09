@@ -101,7 +101,6 @@ line-height: 1.15;
 
 .hero-box {
   display: flex;
-  gap: 397px;
 }
 
 .hero-list {
@@ -109,7 +108,11 @@ line-height: 1.15;
   justify-content: center;
 }
 .hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-right: 397px;
+
 }
 
 .hero-text {
