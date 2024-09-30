@@ -1,0 +1,40 @@
+.top-ice {
+    background: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.top-ice-title {
+    color: var(--title-color);
+    font-family: "Nunito";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.top-ice-text {
+    color: var(--accent-color);
+    width: 790px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 68px;
+}
+
+.top-ice-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.top-ice-link {
+    flex-basis: calc((100% - 60px) / 4);
+}
+
+.top-ice-img {
+    width: 100%;
+}

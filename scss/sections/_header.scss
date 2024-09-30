@@ -1,0 +1,44 @@
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.header-item {
+    color: var(--text-color);
+    font-family: "Oswald";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 37px;
+    margin-right: 188px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 65px;
+
+}
+
+.nav-item {
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.current {
+    color: var(--text-color);
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.15;
+}

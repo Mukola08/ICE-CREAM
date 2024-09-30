@@ -1,0 +1,29 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--footer-color);
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+}
+
+.footer-item {
+    color: var(--text-color);
+    font-family: "Oswald";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 37px;
+    margin-right: 1014px;
+}
+
+.footer-text {
+    color: var(--button-color);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    width: 404px;
+}

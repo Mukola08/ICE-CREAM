@@ -1,0 +1,50 @@
+.popular {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.popular-list {
+    display: flex;
+    gap: 20px;
+}
+
+.popular-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    background: var(--ice-color);
+}
+
+.popular-container {
+    margin-right: 117px;
+}
+
+.popular-title {
+    color: var(--title-color);
+    font-family: "Nunito";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.36;
+    margin-bottom: 10px;
+}
+
+.popular-text {
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15;
+    margin-bottom: 45px;
+}
+
+.popular-btn {
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15;
+    border-radius: 5px;
+    border: 1px solid var(--accent-color);
+    padding: 15px 30px;
+}
